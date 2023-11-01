@@ -9,7 +9,7 @@
         /* Add your CSS styles here */
         body {
             font-family: Arial, sans-serif;
-            background-color: #0077b6; /* Change background color to blue */
+            background-color: #f0f0f0;
             margin: 0;
             padding: 0;
         }
@@ -59,6 +59,12 @@
             text-align: center;
             padding: 1rem 0;
         }
+
+        .image {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+        }
     </style>
 </head>
 <body>
@@ -66,38 +72,20 @@
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#samples">Writing Samples</a></li>
+                <li><a href="#resume">Resume</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <section id="home">
+    <main id="home">
         <h1>Welcome to my Technical Writing Portfolio</h1>
         <p>Professional technical writing samples to showcase my expertise.</p>
-    </section>
+    </main>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Dedicated professional with a strong digital literacy background, specializing in creative writing, technology solutions, and translation (English/Italian).</p>
-        <h3>Key Strengths</h3>
-        <ul>
-            <li>Technology-prone</li>
-            <li>Experienced translator (ITA-ING)</li>
-            <li>Team working activities (direct contact with customers and collaborators with colleagues)</li>
-            <li>Work experiences abroad (Italy, England and Ireland)</li>
-            <li>Languages spoken: Italian (native), English (C1), Spanish (A2)</li>
-            <li>Presentations and demonstrations</li>
-            <li>Attention to detail</li>
-            <li>Adaptability</li>
-            <li>Confident communicator</li>
-            <li>User-centered focus</li>
-        </ul>
-    </section>
-
-    <section id="portfolio">
-        <h2>Portfolio</h2>
+    <section id="samples">
+        <h2>Writing Samples</h2>
         <p>Explore my technical writing samples in various categories:</p>
         <ul>
             <li>Knowledge Base & End User Content</li>
@@ -107,6 +95,12 @@
             <li>Professional Hardware & Manufacturing Docs</li>
             <li>Process & Procedure Documentation</li>
         </ul>
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>View my resume to learn more about my qualifications and experience.</p>
+        <a href="resume.pdf" download>Download Resume</a>
     </section>
 
     <section id="contact">
@@ -119,6 +113,12 @@
 
     <footer>
         <p>&copy; 2023 Samuele Lasagna - Technical Writer</p>
+        <div class="social-icons">
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-github"></a>
+            <!-- Add more social icons here -->
+        </div>
+        <img class="image" src="https://raw.githubusercontent.com/SamDragon94/My-Technical-Writing-Portfolio/main/DreamShaper_v7_Transform_your_words_into_stunning_visuals_with_3.jpg" alt="Your Image">
     </footer>
 </body>
 </html>
